@@ -5,22 +5,22 @@ cask "csaw" do
   on_macos do
     on_intel do
       url "https://github.com/csaw-ai/csaw/releases/download/v#{version}/csaw_#{version}_darwin_amd64.tar.gz"
-      sha256 "25e384b2e25d36886a314d89d29ec9cb055999877766ecc7d6a53ed99e3abd73"
+      sha256 "2b8f68d6d59681724e036cd1073e960cf04015a5d9c5f00b34aabb197c02875d"
     end
     on_arm do
       url "https://github.com/csaw-ai/csaw/releases/download/v#{version}/csaw_#{version}_darwin_arm64.tar.gz"
-      sha256 "cce4c40243438e988c4a5c81dfa8029e6503c91ad1dba61f9a160b2a151d3199"
+      sha256 "ad5885e326b8fb036d46ec4527eb4e24b8227d9368128212199f927cc387c7b0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/csaw-ai/csaw/releases/download/v#{version}/csaw_#{version}_linux_amd64.tar.gz"
-      sha256 "48faee6a98e65c9432db904cce046f7e9535c90aa2180b4dc0d21626edc10c4e"
+      sha256 "74782b5eb51b77ad2dd8f6dbdf9bb041dd95476e5380831d7d54d05f21d523c9"
     end
     on_arm do
       url "https://github.com/csaw-ai/csaw/releases/download/v#{version}/csaw_#{version}_linux_arm64.tar.gz"
-      sha256 "e68831e96782d6ae52be1ca41ecc85d6950033c9a2d0328bd2cb277e60e16955"
+      sha256 "2ad0f393576e399beddf1cba02ccf88c2e62afab56f7cb0f9b339fb2755c5565"
     end
   end
 
